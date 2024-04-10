@@ -2,7 +2,7 @@ function calculate() {
   const dom_1000 = document.getElementById("1000");
   const dom_500 = document.getElementById("500");
   const dom_100 = document.getElementById("100");
-	const number_value = parseInt(document.getElementById("input").value);
+  const number_value = parseInt(document.getElementById("input").value);
   
   // UPDATE here !!!
   let val1000 = 0;
