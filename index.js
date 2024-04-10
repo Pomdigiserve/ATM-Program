@@ -21,9 +21,9 @@ function calculate() {
     val100 = Math.floor(remainingAmount / 100);
     remainingAmount -= val100 * 100;
   }
-	dom_1000.textContent = val1000;
-	dom_500.textContent = val500;
-  	dom_100.textContent = val100;
+dom_1000.textContent = val1000;
+dom_500.textContent = val500;
+dom_100.textContent = val100;
 }
 
 calculate()
